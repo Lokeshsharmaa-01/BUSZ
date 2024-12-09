@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 15px 10px;
+    justify-content: space-between;
+    background-color: aqua;
+
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+ul{
+    flex:1;
+    list-style: none;
+    text-align: center;
+}
