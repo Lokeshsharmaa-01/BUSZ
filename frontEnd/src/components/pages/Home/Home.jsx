@@ -1,5 +1,7 @@
 import React from "react";
-import Hero from "../hero/Hero";
+import Hero from "./hero/Hero";
+import Services from "./hero/services/Services";
+import TopSearch from "./hero/services/topsearch/TopSearch";
 const Home = () => {
   return (
     // <div className="h-screen w-full flex items-center justify-center flex-col">
@@ -13,8 +15,13 @@ const Home = () => {
 
 
 
-    <div className="spacey-16 w-full nin-h-screen pb-16">
+    <div className="space-y-16 w-full nin-h-screen pb-16">
+      {/* hero section */}
       <Hero/>
+      {/* services */}
+      <Services />
+      {/* top search */}
+      <TopSearch />
     </div>
 
   );

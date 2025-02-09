@@ -10,6 +10,7 @@ const App = () => {
         <main className="w-full bg-neutral-50 min-h-screen flex flex-col">
           {/* navbar */}
           <Navbar />
+          
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
